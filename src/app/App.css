@@ -1,0 +1,78 @@
+
+button
+{
+  cursor: pointer
+}
+
+.App
+{
+  text-align: center;
+}
+
+header,
+footer
+{
+  text-align: center;
+  
+}
+header ul
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+header li,
+footer li
+{
+  cursor: pointer;
+}
+
+h2
+{
+  font-weight: bold;
+}
+
+ul, li
+{
+  list-style: none;
+}
+
+#card li
+{
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  min-height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+li button.remove
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.jauge
+{
+  margin-top: 15px;
+  background: red;
+}
+.jauge  span
+{
+  display: block;
+  min-height: 2px;
+  background-color: aqua;
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+  #card li
+  {
+    display: block;
+    width: 100%;
+  }
+}
